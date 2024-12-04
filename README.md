@@ -3,17 +3,13 @@
 This repository contains a dockerized comprehensive wrapper for ORB-SLAM3 on ROS 2 Humble for Ubuntu 22.04.
 
 ## Build status
-![Humble Docker Build](https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker/actions/workflows/build-humble-image.yml/badge.svg)
-
-# Demo GIF
-
-![ORBSLAM3-GIF](orbslam3.gif)
+![Humble Docker Build](https://github.com/JaafarMahmoud1/ORB-SLAM3-ROS2-Docker/actions/workflows/build-humble-image.yml/badge.svg)
 
 # Steps to use this wrapper
 
 ## 1. Clone this repository
 
-1. ```git clone https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker```
+1. ```git clone https://github.com/JaafarMahmoud1/ORB-SLAM3-ROS2-Docker```
 2. ```cd ORB-SLAM3-ROS2-Docker```
 3. ```git submodule update --init --recursive --remote```
 
@@ -71,7 +67,7 @@ ORB-SLAM3 is launched from ```orb_slam3_docker_20_humble/orb_slam3_ros2_wrapper/
 
 Currently the ```rgbd.launch.py``` launch file defaults to ```orb_slam3_ros2_wrapper/params/gazebo_rgbd.yaml```. You can modify this with your own parameter file in case you wish to use your own camera.
 
-The very initial versions of this code were derived from [thien94/orb_slam3_ros_wrapper](https://github.com/thien94/orb_slam3_ros_wrapper) and [zang9/ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2)
+The very initial versions of this code were derived from 
 
 ## ROS Parameter descriptions
 | Parameter Name          | Default Value | Description                                                                 |
